@@ -1,0 +1,468 @@
+@import "../css/reset.css";
+
+body{
+  background-color: #f5f5f5;
+  padding: 15px;
+  max-width: 650px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: start;
+ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.landscape{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/*potrait whole div*/
+.potrait{
+  display: flex;
+  flex-direction: column;
+  left: 800px;
+  
+  margin-top: 400px;
+}
+.landscape_column{
+  margin-right: 20px;
+}
+.bgColumnImg{
+  width: 512px;
+  height: 818px;
+}
+.empty{
+  margin-right: 600px;
+}
+.gray-bar{
+  width: 381px;
+  right: 7px;
+  height: 30px;
+  background-color: #D9D9D9;
+}
+.bgImage{
+  position: absolute;
+  width: 381px;
+  height: 822px;
+  
+}
+.android{
+  font-size: 45px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+/*p = paragraph*/
+.firstP{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 10px;
+  line-height: 40px;
+}
+.firstP p{
+  width: 313px;
+height: 80px;
+
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: white;
+}
+.firstP2{
+  position: absolute;
+width: 270px;
+height: 36px;
+margin-top: 120px;
+margin-left: 25px;
+}
+.firstP2 p {
+  font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+color: white;
+}
+.firstImgg{
+  position: relative;
+  width: 284px;
+  height: 436px;
+  top: 300px;
+  left: 7%;
+}
+.chevron{
+  position: relative;
+  left: 180px;
+  top: -150px;
+  color: white;
+  font-size: 30px;
+}
+.chevron-down_more{
+  position: relative;
+  left: 9px;
+  top: 7px;
+  color: white;
+  
+}
+.bgImage2{
+  position: relative;
+  width: 360px;
+height: 780px;
+}
+.landscape_column3{
+  position: relative;
+  top: 100px;
+  
+}
+.chevron-down{
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);;
+  width: 46px;
+  height: 46px;
+  left: 280px;
+  top: 250px;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+.landscape_columnImagealone{
+  position: relative;
+  top: -202px;
+}
+.imageAloneChevron{
+  left: 300px;
+  top: 700px;
+}
+.cancel{
+  top: 10px;
+  left: 320px;
+  width: 40px;
+  height: 40px;
+}
+.cancelIcon{
+  position: relative;
+  top: 8px;
+  left: 13px;
+  color: white;
+}
+.halfDesapearingImg{
+  width: 400px;
+  left: -10px;
+  top: -0px;
+}
+.s01{
+  position: relative;
+  font-weight: 700;
+font-size: 35px;
+color: white;
+left: 30px;
+top: -30px;
+}
+.post3-firstP{
+  display: block;
+  position: relative;
+  width: 265px;
+  height: 72px;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 36px;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  top: 20px;
+  left: 10px;
+}
+.post3-secondP{
+   display: block;
+  position: relative;
+  width: 265px;
+  height: 72px;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  line-height: 30px;
+  top: 50px;
+  left: 20px ;
+}
+.post3-lastP{
+   display: block;
+  position: relative;
+  top: 70px;
+  left: 30px ;
+  color: white;
+}
+.column3_chevron{
+  top: 300px;
+  left: 310px;
+}
+.disapear{
+  width: 330px;
+  height: 200px;
+  top: 0px;
+  
+}
+.halfBlack{
+  position: relative;
+  top: 110px;
+  left: 10px;
+}
+.column4_chevron{
+  position: relative;
+  top: 530px;
+  left: 339px;
+}
+.cancel2{
+  top: -600px;
+}
+.s02{
+  position: relative;
+  color: white;
+  font-size: 47px;
+  font-weight: 700;
+  top: -40px;
+  left: 20px;
+  margin-bottom: 0px;
+}
+.post-firstP{
+  position: relative;
+  color: white;
+  font-weight: 700;
+  width: 242px;
+font-size: 25px;
+display: flex;
+align-items: flex-end;
+top: -5px;
+left: 20px;
+}
+.post-secondP{
+  display: block;
+  position: relative;
+  color: white;
+  font-weight: 700;
+font-size: 24px;
+width: 207px;
+top: 10px;
+left: 20px;
+}
+.post-lastP{
+  position: relative;
+  display: block;
+  color: white;
+  top: 20px;
+  left: 30px;
+}
+.landscape_column4{
+  position: relative;
+  top: -145px;
+}
+.landscape_column5{
+  position: relative;
+  top: -110px;
+}
+.column5_chevron{
+  position: relative;
+  top: 730px;
+  left: 300px;
+}
+.middleImg{
+  position: relative;
+  top: 300px;
+  left: 20px;
+}
+.column6_chevron{
+  background-color: black;
+  position: relative;
+  top: 500px;
+  left: 300px;
+}
+.column8_chevron{
+  background-color: black;
+  position: relative;
+  top: 470px;
+  left: 300px;
+}
+.s6{
+  color: black;
+  font-size: 47px;
+  font-weight: 800;
+}
+.lastCP1{
+  display: block;
+  position: relative;
+  color: black;
+  width: 253px;
+  font-weight: 700;
+font-size: 24px;
+}
+.lastCP2{
+  color: black;
+  font-weight: 700;
+}
+.lastCP3{
+  color: black;
+}
+.landscape_column8{
+  position: relative;
+  top: -99px;
+}
+.bgImagepot{
+  position: relative;
+  width: 360px;
+  height: 640px;
+
+}
+.gray-barpot{
+  width: 360px;
+  height: 20px;
+  background-color: #D9D9D9;
+}
+.firstP2pot,
+.firstPpot{
+  position: relative;
+  top: -600px;
+  left: 10px;
+  color: white;
+}
+.firstP2pot{
+  top: -580px;
+  left: 20px;
+}
+.firstPpot p{
+  font-weight: 700;
+  font-size: 32px;
+  width: 313px;
+}
+.firstP2pot p{
+  font-weight: 700;
+  font-size: 14px;
+  width: 270px;
+}
+.potrait_column{
+  margin-bottom: 0px;
+}
+.bgImagepot2{
+  position: relative;
+  top: -589px;
+}
+.fullFirst{
+  position: relative;
+  top: -580px;
+  height: 430px;
+  width: 240px;
+  left: 60px;
+}
+.potdetails{
+  display: flex;
+  flex-direction: column;
+}
+.potdetails span{
+  position: relative;
+  top: -1200px;
+  left: 10px;
+  color: white;
+}
+span{
+  display: block;
+}
+.No{
+  font-weight: 700;
+  font-size: 35px;
+  text-decoration: underline;
+}
+.firstpotP{
+  width: 267px;
+  font-weight: 700;
+  font-size: 29px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.secondpotP{
+  width: 220px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.lastpotP{
+  width: 112px;
+  font-weight: 400;
+  font-size: 10px;
+}
+.potrait_column3{
+  position: relative;
+  top: -869px;
+}
+/*black card*/
+.blackfull{
+  position: relative;
+  top: -990px;
+}
+.potdetails2{
+  position: relative;
+  top: 250px;
+}
+.potrait_column4{
+  position: relative;
+  top: -1010px;
+}
+.black2{
+  position: relative;
+  top: -900px;
+  left: -325px;
+}
+.potdetails4{
+  position: relative;
+  top: 300px;
+}
+.potrait_column5{
+  position: relative;
+  top: -1900px;
+}
+.potdetails5{
+  position: relative;
+  top: 300px;
+}
+.potdetails5 span{
+  color: black;
+}
+.potrait_column6{
+  position: relative;
+  top: -2180px;
+}
+.black3{
+  position: relative;
+  left: -323px;
+  top: -750px;
+}
+.potdetails6{
+  position: relative;
+  top: 450px;
+}
+.potdetails6 span{
+  color: black;
+}
+.potrait_column7{
+  position: relative;
+  top: -3050px;
+}
+.blackfull6{
+  position: relative;
+  top: -650px;
+}
+.potdetails7{
+  position: relative;
+  top: -150px;
+}
+.potrait_column8{
+  position: relative;
+  top: -2980px;
+}
+.black8{
+  position: relative;
+  left: 40px;
+  top: -1360px;
+}
+.potrait_column9{
+  position: relative;
+  top: -4345px;
+}
+.potdetails9{
+  position: relative;
+  top: 600px;
+}
